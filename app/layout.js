@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import { Poppins } from 'next/font/google'
 
 export const metadata = {
   title: 'Mi pagina',
@@ -6,10 +7,16 @@ export const metadata = {
   keywords: 'nextjs, react, seo',
 }
 
+const poppins = Poppins({
+  weight: ["400","600"],   
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--poppins-font",
+});
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      <body>
+      <body className={poppins.className}>
       <Navbar/>
       {children}</body>
     </html>
