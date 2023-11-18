@@ -31,6 +31,10 @@ yarn.lock
 # OSX files
 .DS_Store
 
+#nextjs
+.next/
+
+
 # Debugging
 .vscode/
 *.iml
