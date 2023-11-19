@@ -1,9 +1,12 @@
 import Link from "next/link"
+import './Navbar.css'
 
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
+      <Link href="./"><h1>NextJs Curso</h1></Link>
+        <ul>
         <li>
           <Link href="/">
             home
@@ -24,6 +27,7 @@ function Navbar() {
             Post
           </Link>
         </li>
+        </ul>
       </nav>
   )
 }
