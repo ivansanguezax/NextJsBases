@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📘 Basic Concepts of Next.js
 
-## Getting Started
+This repository contains examples and basic concepts to get started with Next.js, a React web development framework that facilitates the creation of fast and efficient web applications.
 
-First, run the development server:
+## 📋 Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **1. 🚀 Introduction to Next.js**
+  - Brief explanation of what Next.js is and why it can be beneficial.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **2. 🛠️ Project Setup**
+  - Instructions for setting up a new Next.js project from scratch.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **3. 📂 Project Structure**
+  - Description of common file and folder structure in a Next.js project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **4. 📄 Pages and Routing**
+  - How to create pages and manage routing in Next.js.
 
-## Learn More
+- **5. ⚛️ Use of React Components**
+  - Integration of React components in a Next.js project.
 
-To learn more about Next.js, take a look at the following resources:
+- **6. 🎨 Styles and CSS**
+  - Methods for applying styles and managing CSS in Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
 
-## Deploy on Vercel
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=flat&logo=next.js&logoColor=%2361DAFB)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%23006AFF.svg?style=flat&logo=tailwind-css&logoColor=white)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ivansanguezax) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ivansanguezax) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/ivansanguezax) 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+⌨️ with ❤️ by [ivansanguezax](https://github.com/ivansanguezax) 😊
