@@ -19,6 +19,11 @@ function Navbar() {
             Store
           </Link>
         </li>
+        <li>
+          <Link href="/post">
+            Post
+          </Link>
+        </li>
       </nav>
   )
 }

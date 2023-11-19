@@ -1,14 +1,16 @@
 
+
 import PostCard from "../../components/PostCard";
 
 
 async function loadPost() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await res.json();
+  await new Promise((resolve) => setTimeout(resolve, 5000));
   return data;
 }
 
-async function page() {
+async function PostPages() {
   const posts = await loadPost();
   console.log(posts);
   return (
@@ -20,4 +22,4 @@ async function page() {
   );
 }
 
-export default page;
+export default PostPages;
