@@ -1,7 +1,10 @@
 "use client"
 import Link from "next/link";
+import {useParams} from "next/navigation";
 
 function PostCard({post}) {
+  const params = useParams();
+  console.log(params);
   return (
     <div className="card bg-white p-3 shadow rounded m-3 transition duration-500 ease-in-out hover:bg-gray-100 transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl">
       <div key={post.id} className="card-body flex flex-col items-center justify-center text-center">
