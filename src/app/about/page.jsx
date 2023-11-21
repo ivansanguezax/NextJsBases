@@ -1,9 +1,8 @@
 'use client'
 
-import {useRouter} from "next/navigation";
 
 function page() {
-  const router = useRouter();
+
   return (
     <section>
       <h1>About</h1>
@@ -21,7 +20,6 @@ function page() {
       " onClick={
         () => {
           alert('Hello');
-          router.push('/');
         }
       }
         >
