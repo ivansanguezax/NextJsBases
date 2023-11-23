@@ -7,11 +7,9 @@ export async function GET() {
     return NextResponse.json(data);
 }
 
-export function POST() {
-    //query database
-    // extract params
-    // communicate with other services
-
+export async function POST(req) {
+    const {name, lastaname} = await req.json();
+    console.log(name, lastaname);
     return NextResponse.json({ message: "creando datos" })
 }
 
